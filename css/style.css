@@ -56,9 +56,14 @@ header {
   font-weight: 500;
 }
 
+header li {
+  display: inline-block;
+}
+
 .bg-header-top {
   background-color: #f4f9fd;
-  padding: 30px;
+  padding: 30px 0;
+  border-bottom: 2px solid #939da0;
 }
 
 /* nav-1 */
@@ -67,7 +72,6 @@ header {
 }
 
 .nav-1 li, .nav-2 li {
-  display: inline-block;
   font-size: 14px;
 }
 
@@ -82,7 +86,7 @@ header {
 .header-top .nav-1 li:first-child {
   padding-right: 20px;
   margin-right: 10px;
-  border-right: 2px solid grey;
+  border-right: 2px solid #939da0;
 }
 /* /nav-1 */
 
@@ -104,8 +108,34 @@ header {
 .nav-2 li a {
   margin-left: 20px;
 }
-
 /* /nav-2 */
+
+/* header bottom */
+.header-bottom {
+  padding: 30px 0;
+  position: relative;
+}
+
+.header-bottom .logo, .header-bottom .main-nav {
+  display: inline-block;
+}
+
+.header-bottom .main-nav {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.main-nav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.main-nav li i {
+  margin-left: 20px;
+}
+/* /header bottom */
+
 
 
 /* /intestazione */
