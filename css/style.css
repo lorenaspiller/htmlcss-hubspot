@@ -5,8 +5,16 @@
   box-sizing: border-box;
 }
 
+
+/* mix */
 clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
+/* /mix */
+
+
+/* intestazione */
+
+/* /intestazione */
