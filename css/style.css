@@ -20,17 +20,31 @@ clearfix::after {
 
 .contenitore {
   width: 80%;
-  background-color: yellow;
   margin: auto;
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
   color: #33475b;
+}
+
+.btn {
+  border-radius: 7px;
+  padding: 12px 12px;
+}
+
+.arancio {
+  background-color: #fe775a;
+  color: #fff;
+}
+
+.neutro {
+  border: 1px solid #fe775a;
+  color: #fe775a;
 }
 
 /* /mix */
@@ -39,25 +53,59 @@ a {
 /* intestazione */
 
 header {
-  padding-top: 20px;
   font-weight: 500;
 }
 
-.header-top .nav-1 li {
-  display: inline-block;
+.bg-header-top {
+  background-color: #f4f9fd;
+  padding: 30px;
 }
 
-.header-top .nav-1 li i {
-  margin: 0 10px;
+/* nav-1 */
+.header-top {
+  position: relative;
+}
+
+.nav-1 li, .nav-2 li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.header-top .nav-1 li i:first-child {
+  margin-right: 10px;
+}
+
+.header-top .nav-1 li i:last-child {
+  margin-left: 10px;
 }
 
 .header-top .nav-1 li:first-child {
-  padding: 0 10px;
+  padding-right: 20px;
   margin-right: 10px;
-  border-right: 1px solid grey;
+  border-right: 2px solid grey;
+}
+/* /nav-1 */
+
+/* nav-2 */
+.nav-2, .nav-1 {
+  display: inline-block;
 }
 
-.header-top .nav-1 li {
-  font-size: 14px;
+.nav-2 {
+  position: absolute;
+  top: top: 0;
+  right: 0;
 }
+
+.nav-2 li:first-child i {
+  color: #0ca8c0;
+}
+
+.nav-2 li a {
+  margin-left: 20px;
+}
+
+/* /nav-2 */
+
+
 /* /intestazione */
