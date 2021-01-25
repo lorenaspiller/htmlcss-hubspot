@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #33475b;
+}
+
 
 /* mix */
 clearfix::after {
@@ -12,9 +17,47 @@ clearfix::after {
   display: block;
   clear: both;
 }
+
+.contenitore {
+  width: 80%;
+  background-color: yellow;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #33475b;
+}
+
 /* /mix */
 
 
 /* intestazione */
 
+header {
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.header-top .nav-1 li {
+  display: inline-block;
+}
+
+.header-top .nav-1 li i {
+  margin: 0 10px;
+}
+
+.header-top .nav-1 li:first-child {
+  padding: 0 10px;
+  margin-right: 10px;
+  border-right: 1px solid grey;
+}
+
+.header-top .nav-1 li {
+  font-size: 14px;
+}
 /* /intestazione */
