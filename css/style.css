@@ -8,6 +8,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #33475b;
+  font-weight: 500;
 }
 
 
@@ -21,6 +22,12 @@ clearfix::after {
 .contenitore {
   width: 80%;
   margin: auto;
+}
+
+.contenitore-piccolo {
+  width: 48%;
+  margin: auto;
+  text-align: center;
 }
 
 li {
@@ -53,6 +60,17 @@ a {
 h1 {
   font-size: 50px;
   margin-bottom: 40px;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 30px;
   letter-spacing: -0.5px;
 }
 /* /typo */
@@ -158,11 +176,6 @@ header li {
   padding-top: 120px;
 }
 
-.hero-testo p {
-  line-height: 30px;
-  letter-spacing: -0.5px;
-}
-
 .hero-testo .btn.arancio {
   display: inline-block;
   padding: 30px 10px;
@@ -184,3 +197,27 @@ header li {
 /* /box green */
 /* /hero */
 /* /intestazione */
+
+/* main */
+main {
+  background-color: #f4f9fd;
+}
+
+/* main-top */
+.img-main-top {
+  width: 300px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.img-main-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenitore-piccolo p {
+  margin: 30px 0;
+}
+/* main-top */
+/* /main */
