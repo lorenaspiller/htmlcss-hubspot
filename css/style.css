@@ -228,7 +228,7 @@ header li {
 /* servizi */
 .servizi {
   background-color: #f4f9fd;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 /* main-top */
@@ -383,8 +383,24 @@ header li {
   width: 140px;
 }
 /* /row-2-servizi */
-
-
-
 /* /servizi */
+
+/* gradiente */
+.gradiente {
+  background-image: linear-gradient(to top right, #00a4bc, #00bca5);
+  /* height: 800px; */
+  color: #fff;
+  text-align: center;
+}
+
+.gradiente h2 {
+  text-transform: none;
+  padding: 0 100px 40px 100px;
+}
+
+.gradiente-testo {
+  padding-top: 50px;
+}
+
+/* /gradiente */
 /* /main */
