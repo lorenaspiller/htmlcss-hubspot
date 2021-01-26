@@ -13,7 +13,7 @@ body {
 
 
 /* mix */
-clearfix::after {
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
@@ -25,7 +25,7 @@ clearfix::after {
 }
 
 .contenitore-piccolo {
-  width: 48%;
+  width: 55%;
   margin: auto;
   text-align: center;
 }
@@ -39,7 +39,7 @@ a {
   color: #33475b;
 }
 
-.btn {
+.btn-nav{
   border-radius: 7px;
   padding: 12px 12px;
 }
@@ -54,6 +54,17 @@ a {
   color: #fe775a;
 }
 
+.btn-big {
+  border-radius: 7px;
+  padding: 25px 45px;
+  letter-spacing: -1px;
+}
+
+.border-main {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 10%);
+}
 /* /mix */
 
 /* typo */
@@ -179,11 +190,9 @@ header li {
   padding-top: 55px;
 }
 
-.hero-testo .btn.arancio {
+.hero-testo .btn-big.arancio {
   display: inline-block;
-  padding: 25px 45px;
   margin: 30px 0;
-  letter-spacing: -1px;
 }
 
 /* box green */
@@ -203,8 +212,10 @@ header li {
 /* /intestazione */
 
 /* main */
-main {
+/* servizi */
+.servizi {
   background-color: #f4f9fd;
+  padding-bottom: 50px;
 }
 
 /* main-top */
@@ -221,7 +232,88 @@ main {
 }
 
 .contenitore-piccolo p {
-  margin: 30px 0;
+  margin-top: 30px;
 }
 /* main-top */
+
+/* row-1-servizi */
+.row-1-servizi.border-main {
+  margin-top: 50px;
+  padding: 80px 175px;
+}
+
+/* col-sin-row-1 */
+.col-sin-row-1 {
+  width: 25%;
+  float: left;
+}
+
+.blocco-contenitore {
+  text-align: center;
+  float: left;
+}
+
+.col-sin-img {
+  width: 160px;
+  margin: auto;
+}
+
+.col-sin-img img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.col-sin-row-1 .btn-big.arancio {
+  display: inline-block;
+  margin-top: 20px;
+}
+/* /col-sin-row-1 */
+
+/* col-dest-row-1 */
+.col-dest-row-1 {
+  width: 75%;
+  float: left;
+  padding-right:
+}
+
+.col-dest-row-1 h3 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.col-dest-row-1 p {
+  margin-bottom: 25px;
+  width: 90%;
+}
+
+.col-dest-row-1 h4 {
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.col-dest-row-1 hr {
+  display: inline-block;
+  border: 2px solid #939da0;
+  width: 70%;
+  vertical-align: middle;
+  margin-left: 70px;
+}
+
+.col-dest-row-1 li {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.col-dest-row-1 li i {
+  color: #fe775a;
+}
+
+.col-dest-row-1 li, .col-dest-row-1 li i {
+  margin-right: 12px;
+}
+/* /col-dest-row-1 */
+/* /row-1-servizi */
+
+
+/* /servizi */
 /* /main */
