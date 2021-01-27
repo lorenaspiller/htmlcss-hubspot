@@ -465,9 +465,61 @@ header li {
 #img-growthub {
   height: 22px;
 }
-
 /* /row-1-gradiente */
-
-
 /* /gradiente */
+
+/* sezione growing */
+.growing-top {
+  width: 65%;
+  margin-top: 50px;
+  /* background-color: pink; */
+}
+
+/* info-growing */
+.growing-top .info-growing {
+  width: 48%;
+  display: inline-block;
+}
+
+.info-growing > h2 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.info-growing > p {
+  width: 39%;
+}
+/* /info-growing */
+
+/* brands */
+.growing-top .brands {
+  display: inline-block;
+  width: 50%;
+  height: 150px;
+}
+
+.brands .logo {
+  width: calc(100% / 4);
+  float: left;
+  margin: 10px 0;
+  vertical-align: middle;
+  height: 50px;
+}
+
+.brands .logo img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  vertical-align: middle;
+}
+
+#classpass-logo {
+  width: 60%;
+}
+/* /brands */
+
+
+/* /sezione growing */
+
 /* /main */
