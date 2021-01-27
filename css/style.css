@@ -300,13 +300,23 @@ header li {
 
 .col-dest-row-1 h4 {
   display: inline-block;
+  width: 30%;
+  line-height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.col-dest-row-1 .horizontal-ruler {
+  display: inline-block;
+  width: 68%;
+  text-align: right;
+  line-height: 20px;
 }
 
 .col-dest-row-1 hr {
   display: inline-block;
-  width: 70%;
+  width: 100%;
   vertical-align: middle;
-  margin-left: 50px;
 }
 
 .col-dest-row-1 li {
@@ -386,21 +396,74 @@ header li {
 /* /servizi */
 
 /* gradiente */
+/* gradiente-testo */
 .gradiente {
   background-image: linear-gradient(to top right, #00a4bc, #00bca5);
   /* height: 800px; */
   color: #fff;
   text-align: center;
+  padding: 50px 0 80px 0;
 }
 
 .gradiente h2 {
   text-transform: none;
+  font-size: 36px;
   padding: 0 100px 40px 100px;
 }
+/* /gradiente-testo */
 
-.gradiente-testo {
-  padding-top: 50px;
+/* row-1-gradiente */
+.row-gradiente {
+  margin-top: 50px;
+  border-bottom: 1px solid #fff;
 }
+
+.box-gradiente {
+  height: 200px;
+  text-align: center;
+  width: calc( 100% / 4);
+  float: left;
+  border-right: 1px solid #fff;
+  padding: 35px 0;
+}
+
+.box-gradiente .box-img {
+  height: 35px;
+}
+
+.box-gradiente .box-img img {
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.box-gradiente .box-numero {
+  font-size: 39px;
+  font-weight: 700;
+  margin: 25px 0 20px 0;
+  vertical-align: middle;
+  /* background-color: pink; */
+}
+
+.box-numero::after {
+  content: "+";
+  font-size: 20px;
+  vertical-align: 5px;
+  margin-left: 5px;
+  font-weight: 300;
+}
+
+.box-gradiente:last-child {
+  border-right: none;
+}
+
+.gradiente .row-gradiente:last-of-type {
+  border-bottom: none;
+  margin-top: 0;
+}
+
+/* /row-1-gradiente */
+
 
 /* /gradiente */
 /* /main */
