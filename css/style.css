@@ -570,8 +570,8 @@ header li {
 /* footer-top */
 footer {
   background-color: #32495b;
-  height: 600px;
   color: #fff;
+  padding-bottom: 50px;
 }
 
 footer a {
@@ -607,4 +607,65 @@ footer a {
 }
 /* /footer-top */
 
+/* footer-bottom */
+
+.footer-bottom {
+  margin-top: 80px;
+}
+
+/* lingue */
+.lingue {
+  text-align: center;
+  border-bottom: 1px solid #dadee0;
+}
+
+.lingue li {
+  display: inline-block;
+  margin-right: 30px;
+  padding-bottom: 15px;
+}
+/* /lingue */
+
+/* fondo-footer */
+/* sezione legale */
+.legale {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.copyright img {
+  width: 13%;
+  margin-bottom: 5px;
+}
+
+.legale h6 {
+  font-size: 14px;
+}
+/* /sezione legale */
+
+/* privacy */
+.privacy {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+  /* position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%); */
+}
+
+.fondo-footer {
+  /* position: relative; */
+  margin-top: 30px;
+}
+
+.privacy li {
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 20px;
+}
+/* /privacy */
+/* /fondo-footer */
+/* /footer-bottom */
 /* /footer */
