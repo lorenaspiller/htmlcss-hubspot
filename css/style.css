@@ -94,6 +94,11 @@ h4 {
   font-size: 20px;
 }
 
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
 p {
   line-height: 30px;
   letter-spacing: -0.5px;
@@ -524,7 +529,7 @@ header li {
 
 /* growing bottom */
 .growing-bottom {
-  margin-top: 80px;
+  margin: 80px auto;
 }
 
 .g-b-testo {
@@ -552,7 +557,6 @@ header li {
   width: 48%;
   text-align: right;
   vertical-align: bottom;
-  padding-right: 50px;
 }
 
 .g-b-image img {
@@ -560,5 +564,47 @@ header li {
 }
 /* /growing bottom */
 /* /sezione growing */
-
 /* /main */
+
+/* footer */
+/* footer-top */
+footer {
+  background-color: #32495b;
+  height: 600px;
+  color: #fff;
+}
+
+footer a {
+  color: #dadee0;
+  line-height: 35px;
+  font-size: 15px;
+}
+
+.footer-top {
+  padding-top: 50px;
+}
+
+.footer-top .f-row .f-col {
+  width: 25%;
+  float: left;
+}
+
+.f-row .f-col h5 {
+  margin-bottom: 20px;
+}
+
+.f-col .btn-nav {
+  background-color: #dadee0;
+  color: #32495b;
+  padding: 4px 10px;
+  margin-top: 10px;
+}
+
+.f-col .social-media-links li {
+  display: inline-block;
+  width: 10%;
+  margin-top: 15px;
+}
+/* /footer-top */
+
+/* /footer */
