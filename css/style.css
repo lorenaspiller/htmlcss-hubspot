@@ -629,7 +629,7 @@ footer a {
 /* fondo-footer */
 /* sezione legale */
 .legale {
-  width: 49%;
+  width: 50%;
   display: inline-block;
   vertical-align: top;
 }
@@ -649,15 +649,15 @@ footer a {
   width: 50%;
   display: inline-block;
   text-align: right;
-  /* position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%); */
+  float: left;
 }
 
 .fondo-footer {
-  /* position: relative; */
   margin-top: 30px;
+}
+
+.privacy {
+  float: right;
 }
 
 .privacy li {
