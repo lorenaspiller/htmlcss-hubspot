@@ -37,6 +37,7 @@ li {
 a {
   text-decoration: none;
   color: #33475b;
+  display: inline-block;
 }
 
 .btn-nav{
@@ -399,10 +400,9 @@ header li {
 /* gradiente-testo */
 .gradiente {
   background-image: linear-gradient(to top right, #00a4bc, #00bca5);
-  /* height: 800px; */
   color: #fff;
   text-align: center;
-  padding: 50px 0 80px 0;
+  padding: 70px 0 120px 0;
 }
 
 .gradiente h2 {
@@ -469,16 +469,17 @@ header li {
 /* /gradiente */
 
 /* sezione growing */
+/* growing top */
 .growing-top {
   width: 65%;
   margin-top: 50px;
-  /* background-color: pink; */
 }
 
 /* info-growing */
 .growing-top .info-growing {
   width: 48%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .info-growing > h2 {
@@ -496,6 +497,7 @@ header li {
   display: inline-block;
   width: 50%;
   height: 150px;
+  vertical-align: middle;
 }
 
 .brands .logo {
@@ -518,8 +520,45 @@ header li {
   width: 60%;
 }
 /* /brands */
+/* /growing top */
 
+/* growing bottom */
+.growing-bottom {
+  margin-top: 80px;
+}
 
+.g-b-testo {
+  width: 50%;
+  padding-right: 201px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.g-b-testo h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.g-b-testo p:first-of-type {
+  margin: 40px 0;
+}
+
+.g-b-testo p:last-of-type {
+  margin-top: 40px;
+}
+
+.g-b-image {
+  display: inline-block;
+  width: 48%;
+  text-align: right;
+  vertical-align: bottom;
+  padding-right: 50px;
+}
+
+.g-b-image img {
+  width: 50%;
+}
+/* /growing bottom */
 /* /sezione growing */
 
 /* /main */
