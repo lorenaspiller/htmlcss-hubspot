@@ -554,6 +554,10 @@ header li {
   vertical-align: bottom;
 }
 
+.g-b-testo p span {
+  text-transform: uppercase;
+}
+
 .g-b-testo h2 {
   font-size: 32px;
   font-weight: 700;
