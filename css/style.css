@@ -144,16 +144,9 @@ header li {
   border-right: 2px solid #939da0;
 }
 
-.header-top {
-  position: relative;
-}
-
 .nav-1 {
   float: left;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  padding-top: 12px;
 }
 /* /nav-1 */
 
@@ -179,7 +172,6 @@ header li {
 /* header bottom */
 .header-bottom {
   padding: 25px 0;
-  position: relative;
 }
 
 .header-bottom .logo, .header-bottom .main-nav {
@@ -193,10 +185,7 @@ header li {
 .header-bottom .main-nav {
   float: right;
   text-align: right;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+  padding-top: 9px;
 }
 
 .main-nav li:not(:last-child) {
